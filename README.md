@@ -4,7 +4,7 @@
 
 **i) The result of the Google Signin page**
 
-<img src="GoogleSignIN/Resource/Result.png" width="300" height="600">
+<img src="GoogleSignIN/Resource/Result.png" width="800" height="2000">
 
 
 
