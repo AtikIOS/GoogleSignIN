@@ -15,6 +15,9 @@
 		BE10930E2E5CA40A0098F796 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1093042E5CA40A0098F796 /* SceneDelegate.swift */; };
 		BE1093132E5CA4690098F796 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1093122E5CA4690098F796 /* HomeViewController.swift */; };
 		BE1093152E5CA4710098F796 /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1093142E5CA4710098F796 /* HomeViewController.storyboard */; };
+		BE1093192E5CAD850098F796 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE1093182E5CAD850098F796 /* GoogleService-Info.plist */; };
+		BE10931D2E5CCD310098F796 /* Result.png in Resources */ = {isa = PBXBuildFile; fileRef = BE10931B2E5CCD310098F796 /* Result.png */; };
+		BE10931E2E5CCD310098F796 /* ShowSignInPage.png in Resources */ = {isa = PBXBuildFile; fileRef = BE10931C2E5CCD310098F796 /* ShowSignInPage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		BE1093072E5CA40A0098F796 /* GoogleSignIN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleSignIN.xcdatamodel; sourceTree = "<group>"; };
 		BE1093122E5CA4690098F796 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BE1093142E5CA4710098F796 /* HomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeViewController.storyboard; sourceTree = "<group>"; };
+		BE1093182E5CAD850098F796 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BE10931B2E5CCD310098F796 /* Result.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Result.png; sourceTree = "<group>"; };
+		BE10931C2E5CCD310098F796 /* ShowSignInPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ShowSignInPage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +81,10 @@
 			children = (
 				BE1093102E5CA43A0098F796 /* System */,
 				BE1093112E5CA45C0098F796 /* Controller */,
+				BE10931A2E5CCD190098F796 /* Resource */,
 				BE1092FD2E5CA40A0098F796 /* Assets.xcassets */,
 				BE1092FE2E5CA40A0098F796 /* GoogleSignIN.xcdatamodeld */,
+				BE1093182E5CAD850098F796 /* GoogleService-Info.plist */,
 				BE1092FF2E5CA40A0098F796 /* Info.plist */,
 				BE1093012E5CA40A0098F796 /* LaunchScreen.storyboard */,
 			);
@@ -99,6 +107,15 @@
 				BE1093142E5CA4710098F796 /* HomeViewController.storyboard */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE10931A2E5CCD190098F796 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BE10931B2E5CCD310098F796 /* Result.png */,
+				BE10931C2E5CCD310098F796 /* ShowSignInPage.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		FCC6EB8BE0D30C946AB89CB9 /* Pods */ = {
@@ -174,6 +191,9 @@
 				BE1093082E5CA40A0098F796 /* Assets.xcassets in Resources */,
 				BE10930A2E5CA40A0098F796 /* LaunchScreen.storyboard in Resources */,
 				BE1093152E5CA4710098F796 /* HomeViewController.storyboard in Resources */,
+				BE1093192E5CAD850098F796 /* GoogleService-Info.plist in Resources */,
+				BE10931D2E5CCD310098F796 /* Result.png in Resources */,
+				BE10931E2E5CCD310098F796 /* ShowSignInPage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
